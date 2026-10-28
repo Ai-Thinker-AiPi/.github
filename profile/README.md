@@ -22,7 +22,7 @@ AiPi is Ai-Thinker's development board team, building open-source hardware aroun
 > 时间线持续补充中，欢迎补充遗漏的里程碑。
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'cScale0':'#22405f','cScaleLabel0':'#d6e6ff','cScale1':'#20493c','cScaleLabel1':'#d5f0e6','cScale2':'#4a3d20','cScaleLabel2':'#f5e8c8','cScale3':'#3b2c55','cScaleLabel3':'#e6ddff','cScale4':'#4a2a36','cScaleLabel4':'#ffdbe6','lineColor':'#57606a','textColor':'#1f2328'}}}%%
+%%{init: {'theme':'base','themeVariables':{'cScale0':'#22405f','cScaleLabel0':'#d6e6ff','cScale1':'#20493c','cScaleLabel1':'#d5f0e6','cScale2':'#4a3d20','cScaleLabel2':'#f5e8c8','cScale3':'#3b2c55','cScaleLabel3':'#e6ddff','cScale4':'#4a2a36','cScaleLabel4':'#ffdbe6','lineColor':'#57606a','textColor':'#1f2328','titleColor':'#8b949e'}}}%%
 timeline
     title AiPi 小安派发展时间线
     section 2023
