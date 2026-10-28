@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-label="AiPi 团队发展时间线：2023 成立、2024 沉淀、2025 对话、2026 升级">
+<rect x="1" y="1" width="998" height="278" rx="18" fill="#f6f8fa" stroke="#d8dee4"/>
+<line x1="64" y1="112" x2="918" y2="112" stroke="#d0d7de" stroke-width="2" stroke-linecap="round"/>
+<path d="M918 105 L931 112 L918 119" fill="none" stroke="#d0d7de" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="152" cy="112" r="13" fill="#2f5d8a" fill-opacity="0.14"/>
+<circle cx="152" cy="112" r="6.5" fill="#2f5d8a"/>
+<line x1="152" y1="125" x2="152" y2="148" stroke="#2f5d8a" stroke-opacity="0.35" stroke-width="2"/>
+<text x="152" y="84" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" letter-spacing="1" fill="#2f5d8a">2023</text>
+<rect x="118" y="148" width="68" height="28" rx="14" fill="#2f5d8a" fill-opacity="0.12"/>
+<text x="152" y="168" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="15" font-weight="600" fill="#2f5d8a">成立</text>
+<text x="152" y="204" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#57606a">首批开源开发板上线</text>
+<text x="152" y="227" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#57606a">Eyes / Cam / SCP / KVM / UNO</text>
+<circle cx="384" cy="112" r="13" fill="#2f6b57" fill-opacity="0.14"/>
+<circle cx="384" cy="112" r="6.5" fill="#2f6b57"/>
+<line x1="384" y1="125" x2="384" y2="148" stroke="#2f6b57" stroke-opacity="0.35" stroke-width="2"/>
+<text x="384" y="84" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" letter-spacing="1" fill="#2f6b57">2024</text>
+<rect x="350" y="148" width="68" height="28" rx="14" fill="#2f6b57" fill-opacity="0.12"/>
+<text x="384" y="168" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="15" font-weight="600" fill="#2f6b57">沉淀</text>
+<text x="384" y="204" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#57606a">减少新开源硬件项目</text>
+<text x="384" y="227" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#57606a">建设 docs 与产品教程</text>
+<circle cx="616" cy="112" r="13" fill="#7a5a24" fill-opacity="0.14"/>
+<circle cx="616" cy="112" r="6.5" fill="#7a5a24"/>
+<line x1="616" y1="125" x2="616" y2="148" stroke="#7a5a24" stroke-opacity="0.35" stroke-width="2"/>
+<text x="616" y="84" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" letter-spacing="1" fill="#7a5a24">2025</text>
+<rect x="582" y="148" width="68" height="28" rx="14" fill="#7a5a24" fill-opacity="0.12"/>
+<text x="616" y="168" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="15" font-weight="600" fill="#7a5a24">对话</text>
+<text x="616" y="204" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#57606a">聚焦 AI 智能对话</text>
+<text x="616" y="227" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#57606a">AI 语音产品落地</text>
+<circle cx="848" cy="112" r="13" fill="#4b3f7a" fill-opacity="0.14"/>
+<circle cx="848" cy="112" r="6.5" fill="#4b3f7a"/>
+<line x1="848" y1="125" x2="848" y2="148" stroke="#4b3f7a" stroke-opacity="0.35" stroke-width="2"/>
+<text x="848" y="84" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" letter-spacing="1" fill="#4b3f7a">2026</text>
+<rect x="814" y="148" width="68" height="28" rx="14" fill="#4b3f7a" fill-opacity="0.12"/>
+<text x="848" y="168" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="15" font-weight="600" fill="#4b3f7a">升级</text>
+<text x="848" y="204" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#57606a">优化 GitHub 仓库</text>
+<text x="848" y="227" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#57606a">筹备新的开源项目</text>
+</svg>
