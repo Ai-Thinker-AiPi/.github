@@ -19,24 +19,19 @@ AiPi is Ai-Thinker's development board team, building open-source hardware aroun
 
 ## 发展时间线 Timeline
 
-> ⚠️ 以下年份为**示例数据**，仅用于预览排版效果，正式发布前会替换为核实过的里程碑。
+> 时间线持续补充中，欢迎补充遗漏的里程碑。
 
 ```mermaid
 timeline
-    title AiPi 小安派发展时间线（示例数据）
-    section 2022
-        团队成立 : 品牌起步
+    title AiPi 小安派发展时间线
     section 2023
-        小安派-Eyes : 首款带屏开发板
+        小安派-Eyes : 带屏开发板
         小安派-Cam : 摄像头方案
-    section 2024
-        AiPi-KVM : 远程 KVM
-        统一 SDK : aithinker_dev_sdk
+        小安派-SCP : 发布
+        小安派-KVM : 远程 KVM
+        小安派-UNO : UNO 形态
     section 2025
-        AiPi-Clock : 桌面时钟
-        AiPi-Clock-Mini : 迷你时钟
-    section 2026
-        AiPi-PalChatV1 : AI 语音对话
+        小安派-九章 : 发布
 ```
 
 ## 产品线 Product Lines
