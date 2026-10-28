@@ -3,38 +3,43 @@
   "milestones": [
     {
       "year": "2023",
-      "title": "Start",
+      "title": "Getting Started",
       "lines": [
-        "Brand founded. First boards:",
-        "AiPi-Eyes, AiPi-Cam, AiPi-SCP,",
-        "AiPi-KVM and AiPi-UNO released."
+        "Launched the AiPi brand and our",
+        "first development boards: AiPi-Eyes,",
+        "AiPi-Cam, AiPi-SCP, AiPi-KVM,",
+        "and AiPi-UNO."
       ]
     },
     {
       "year": "2024",
-      "title": "Deepen",
+      "title": "Building the Foundation",
       "lines": [
-        "Built ecosystem infrastructure",
-        "with docs and case tutorials for",
-        "a stable, friendly experience."
+        "Expanded our documentation and",
+        "tutorials to give developers a",
+        "more reliable, approachable",
+        "development experience."
       ]
     },
     {
       "year": "2025",
-      "title": "Empower",
+      "title": "Bringing AI to the Edge",
       "lines": [
-        "Moved into edge AI interaction",
-        "with several AI voice",
-        "open-source solutions."
+        "Released open-source AI voice",
+        "interaction solutions, bringing",
+        "more AI capabilities to our",
+        "hardware."
       ]
     },
     {
       "year": "2026",
-      "title": "Renew",
+      "title": "Improving the Developer Experience",
       "lines": [
-        "Standardized GitHub repos and",
-        "code assets, moving toward",
-        "\"Make Ideas Land with Confidence\""
+        "Improved how we organize and",
+        "maintain our GitHub repositories",
+        "and code, making it easier for",
+        "developers to bring ideas to",
+        "life with confidence."
       ]
     }
   ]
