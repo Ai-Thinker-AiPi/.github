@@ -9,6 +9,7 @@
 
 版式规则：骨刺沿脊线左右交替，年份自动均分；每行文字手动控制换行，
 脚本会检查行宽是否超出卡片，超出会直接报错。
+中文标题与年份同行（短标题），英文标题独立成行（标题较长）。
 """
 import json
 import os
@@ -18,14 +19,8 @@ from xml.sax.saxutils import escape
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT = "Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif"
 
-W = 880
-CARD_W = 300
-PAD = 14
-DESC_SIZE = 14
-LINE_H = 21
 GAP = 30
-NODE_X0, SPACING = 150, 160
-SPINE_X0, SPINE_X1 = 44, 840
+PAD = 14
 MAX_LINES = 6
 
 THEMES = {
@@ -42,8 +37,16 @@ THEMES = {
 }
 
 LOCALES = {
-    "zh": dict(data="timeline.json", suffix="", aria="AiPi 小安派团队发展鱼骨时间线"),
-    "en": dict(data="timeline.en.json", suffix="-en", aria="AiPi team milestone timeline"),
+    "zh": dict(
+        data="timeline.json", suffix="", aria="AiPi 小安派团队发展鱼骨时间线",
+        w=880, card_w=300, node_x0=150, spacing=160, spine=(44, 840),
+        title_inline=True, title_size=17, desc_size=14, line_h=21, desc_top=66,
+    ),
+    "en": dict(
+        data="timeline.en.json", suffix="-en", aria="AiPi team milestone timeline",
+        w=940, card_w=336, node_x0=150, spacing=180, spine=(44, 900),
+        title_inline=False, title_size=14, desc_size=14, line_h=20, desc_top=84,
+    ),
 }
 
 
@@ -57,51 +60,59 @@ def text_width(s, size):
 
 
 def load(locale):
-    path = os.path.join(HERE, LOCALES[locale]["data"])
-    with open(path, encoding="utf-8") as f:
+    cfg = LOCALES[locale]
+    with open(os.path.join(HERE, cfg["data"]), encoding="utf-8") as f:
         data = json.load(f)
     items = data["milestones"]
-    limit = CARD_W - 2 * PAD
+    limit = cfg["card_w"] - 2 * PAD
     for it in items:
         lines = it.get("lines", [])
         if not 1 <= len(lines) <= MAX_LINES:
             raise ValueError(f'{it["year"]}: lines 需要 1~{MAX_LINES} 行')
         for line in lines:
-            w = text_width(line, DESC_SIZE)
+            w = text_width(line, cfg["desc_size"])
             if w > limit:
                 raise ValueError(
                     f'{it["year"]}: 「{line}」宽 {w:.0f}px，超出 {limit}px，请拆成两行')
+        tw = text_width(it["title"], cfg["title_size"])
+        if cfg["title_inline"]:
+            tw += text_width(it["year"], 30)
+            tw += 10  # 标题左边距
+        if tw > limit:
+            raise ValueError(f'{it["year"]}: 标题「{it["title"]}」过宽')
     return items
 
 
-def build(theme, items, aria):
+def build(theme, items, cfg):
     t = THEMES[theme]
     n = len(items)
-    spacing = min(SPACING, (SPINE_X1 - SPINE_X0 - 2 * 46) / (n - 1)) if n > 1 else 0
+    spine_x0, spine_x1 = cfg["spine"]
+    spacing = min(cfg["spacing"], (spine_x1 - spine_x0 - 2 * 46) / (n - 1)) if n > 1 else 0
     max_lines = max(len(it["lines"]) for it in items)
-    card_h = 66 + (max_lines - 1) * LINE_H + 16
+    card_h = cfg["desc_top"] + (max_lines - 1) * cfg["line_h"] + 16
     spine_y = GAP + card_h + 18
     h = spine_y + GAP + card_h + 18
+    w = cfg["w"]
 
     out = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" '
-        f'viewBox="0 0 {W} {h}" role="img" '
-        f'aria-label="{aria}">',
-        f'<rect x="1" y="1" width="{W-2}" height="{h-2}" rx="20" '
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
+        f'viewBox="0 0 {w} {h}" role="img" '
+        f'aria-label="{cfg["aria"]}">',
+        f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="20" '
         f'fill="{t["bg"]}" stroke="{t["border"]}"/>',
-        f'<line x1="{SPINE_X0}" y1="{spine_y}" x2="{SPINE_X1-16}" y2="{spine_y}" '
+        f'<line x1="{spine_x0}" y1="{spine_y}" x2="{spine_x1-16}" y2="{spine_y}" '
         f'stroke="{t["line"]}" stroke-width="2.5" stroke-linecap="round"/>',
-        f'<path d="M{SPINE_X1-16} {spine_y-8} L{SPINE_X1} {spine_y} '
-        f'L{SPINE_X1-16} {spine_y+8} Z" fill="{t["line"]}"/>',
+        f'<path d="M{spine_x1-16} {spine_y-8} L{spine_x1} {spine_y} '
+        f'L{spine_x1-16} {spine_y+8} Z" fill="{t["line"]}"/>',
     ]
 
     for i, it in enumerate(items):
         accent = t["accents"][i % len(t["accents"])]
-        nx = NODE_X0 + i * spacing
+        nx = cfg["node_x0"] + i * spacing
         cx = nx + 46
         above = i % 2 == 0
         top = spine_y - GAP - card_h if above else spine_y + GAP
-        card_x = cx - CARD_W / 2
+        card_x = cx - cfg["card_w"] / 2
         rib_end_y = top + card_h if above else top
 
         out += [
@@ -109,19 +120,31 @@ def build(theme, items, aria):
             f'stroke="{accent}" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>',
             f'<circle cx="{nx:.1f}" cy="{spine_y}" r="12" fill="{accent}" fill-opacity="0.12"/>',
             f'<circle cx="{nx:.1f}" cy="{spine_y}" r="5.5" fill="{accent}"/>',
-            f'<rect x="{card_x:.1f}" y="{top}" width="{CARD_W}" height="{card_h}" rx="12" '
+            f'<rect x="{card_x:.1f}" y="{top}" width="{cfg["card_w"]}" height="{card_h}" rx="12" '
             f'fill="{accent}" fill-opacity="{t["fill_opacity"]}" stroke="{accent}" '
             f'stroke-opacity="{t["stroke_opacity"]}"/>',
-            f'<text x="{card_x+PAD:.1f}" y="{top+34}" font-family="{FONT}" font-size="30" '
-            f'font-weight="700" fill="{accent}">{escape(it["year"])}</text>',
-            f'<text x="{card_x+PAD+len(it["year"])*16.5+10:.1f}" y="{top+33}" '
-            f'font-family="{FONT}" font-size="17" font-weight="600" '
-            f'fill="{t["text"]}">{escape(it["title"])}</text>',
         ]
+        if cfg["title_inline"]:
+            out += [
+                f'<text x="{card_x+PAD:.1f}" y="{top+34}" font-family="{FONT}" font-size="30" '
+                f'font-weight="700" fill="{accent}">{escape(it["year"])}</text>',
+                f'<text x="{card_x+PAD+len(it["year"])*16.5+10:.1f}" y="{top+33}" '
+                f'font-family="{FONT}" font-size="{cfg["title_size"]}" font-weight="600" '
+                f'fill="{t["text"]}">{escape(it["title"])}</text>',
+            ]
+        else:
+            out += [
+                f'<text x="{card_x+PAD:.1f}" y="{top+38}" font-family="{FONT}" font-size="30" '
+                f'font-weight="700" fill="{accent}">{escape(it["year"])}</text>',
+                f'<text x="{card_x+PAD:.1f}" y="{top+64}" font-family="{FONT}" '
+                f'font-size="{cfg["title_size"]}" font-weight="700" '
+                f'fill="{t["text"]}">{escape(it["title"])}</text>',
+            ]
         for j, line in enumerate(it["lines"]):
             out.append(
-                f'<text x="{card_x+PAD:.1f}" y="{top+66+j*LINE_H}" font-family="{FONT}" '
-                f'font-size="{DESC_SIZE}" fill="{t["sub"]}">{escape(line)}</text>'
+                f'<text x="{card_x+PAD:.1f}" y="{top+cfg["desc_top"]+j*cfg["line_h"]}" '
+                f'font-family="{FONT}" font-size="{cfg["desc_size"]}" '
+                f'fill="{t["sub"]}">{escape(line)}</text>'
             )
 
     out.append("</svg>")
@@ -134,7 +157,7 @@ def main():
         for theme in THEMES:
             path = os.path.join(HERE, f"timeline{cfg['suffix']}-{theme}.svg")
             with open(path, "w", encoding="utf-8") as f:
-                f.write(build(theme, items, cfg["aria"]))
+                f.write(build(theme, items, cfg))
             print("wrote", path)
 
 
