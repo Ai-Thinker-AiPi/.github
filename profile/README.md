@@ -22,10 +22,13 @@
   <img src="assets/timeline-light.svg" alt="AiPi 小安派团队发展鱼骨时间线：2023 成立、2024 沉淀、2025 对话、2026 升级">
 </picture>
 
-## 安信可科技 · GitHub 主仓库
+## GitHub 主仓库
 
 <div align="center">
 
-<a href="https://github.com/Ai-Thinker-AIoT"><img src="https://img.shields.io/badge/Ai--Thinker_AIoT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" width="400" alt="安信可科技 GitHub 主仓库"></a>
+<a href="https://github.com/Ai-Thinker-AIoT"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repo-button-dark.svg">
+  <img src="assets/repo-button-light.svg" alt="安信可科技 GitHub 主仓库">
+</picture></a>
 
 </div>
