@@ -15,11 +15,11 @@ from xml.sax.saxutils import escape
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT = "Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif"
 
-W, H = 760, 288
-SPINE_Y = 144
-SPINE_X0, SPINE_X1 = 40, 720
-NODE_X0, MAX_SPAN = 130, 420
-CARD_H, GAP = 90, 30
+W, H = 880, 332
+SPINE_Y = 166
+SPINE_X0, SPINE_X1 = 44, 840
+NODE_X0, MAX_SPAN = 150, 480
+CARD_H, GAP = 104, 34
 
 THEMES = {
     "light": dict(
@@ -48,8 +48,8 @@ def load():
 def build(theme, items):
     t = THEMES[theme]
     n = len(items)
-    spacing = min(140, MAX_SPAN / (n - 1)) if n > 1 else 0
-    card_w = min(176, 2 * spacing - 16) if n > 1 else 176
+    spacing = min(160, MAX_SPAN / (n - 1)) if n > 1 else 0
+    card_w = min(200, 2 * spacing - 16) if n > 1 else 200
 
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
@@ -66,7 +66,7 @@ def build(theme, items):
     for i, it in enumerate(items):
         accent = t["accents"][i % len(t["accents"])]
         nx = NODE_X0 + i * spacing
-        cx = nx + 40
+        cx = nx + 46
         above = i % 2 == 0
         top = SPINE_Y - GAP - CARD_H if above else SPINE_Y + GAP
         card_x = cx - card_w / 2
@@ -80,16 +80,16 @@ def build(theme, items):
             f'<rect x="{card_x:.1f}" y="{top}" width="{card_w:.1f}" height="{CARD_H}" rx="12" '
             f'fill="{accent}" fill-opacity="{t["fill_opacity"]}" stroke="{accent}" '
             f'stroke-opacity="{t["stroke_opacity"]}"/>',
-            f'<text x="{card_x+12:.1f}" y="{top+30}" font-family="{FONT}" font-size="26" '
+            f'<text x="{card_x+14:.1f}" y="{top+34}" font-family="{FONT}" font-size="30" '
             f'font-weight="700" fill="{accent}">{escape(it["year"])}</text>',
-            f'<text x="{card_x+12+len(it["year"])*14.3+9:.1f}" y="{top+29}" '
-            f'font-family="{FONT}" font-size="15" font-weight="600" '
+            f'<text x="{card_x+14+len(it["year"])*16.5+10:.1f}" y="{top+33}" '
+            f'font-family="{FONT}" font-size="17" font-weight="600" '
             f'fill="{t["text"]}">{escape(it["title"])}</text>',
         ]
         for j, line in enumerate(it["lines"]):
             out.append(
-                f'<text x="{card_x+12:.1f}" y="{top+57+j*20}" font-family="{FONT}" '
-                f'font-size="13.5" fill="{t["sub"]}">{escape(line)}</text>'
+                f'<text x="{card_x+14:.1f}" y="{top+66+j*22}" font-family="{FONT}" '
+                f'font-size="15" fill="{t["sub"]}">{escape(line)}</text>'
             )
 
     out.append("</svg>")
