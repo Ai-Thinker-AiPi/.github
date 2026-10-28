@@ -28,5 +28,5 @@ Our promise is simple: help you bring ideas to life with confidence. We make har
 ## Explore Ai-Thinker on GitHub
 
 <p align="center">
-  <a href="https://github.com/Ai-Thinker-AIoT"><img src="assets/repo-button-en.svg" alt="Explore Ai-Thinker on GitHub"></a>
+  <a href="https://github.com/Ai-Thinker-AIoT"><img src="assets/repo-button-en.svg" alt="Ai-Thinker Official Organization"></a>
 </p>
