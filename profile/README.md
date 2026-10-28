@@ -13,7 +13,16 @@
 
 ## 关于我们 About
 
-小安派（AiPi）是安信可科技旗下的开发板团队，围绕 Wi-Fi / 蓝牙模组做「拿起来就能玩」的开源硬件：开发板、屏幕、摄像头、外壳，以及配套的 SDK、示例固件与调试工具，全部开源。
+小安派（AiPi）是**深圳市安信可科技有限公司**旗下的开源硬件团队。安信可长期专注物联网无线通信，模组产品覆盖 Wi-Fi、蓝牙、LoRaWAN、NB-IoT、GPS、雷达、UWB 等方向；小安派把这些模组做成开箱即用的开发板与整机方案，把射频、天线这些底层细节留在模组里，开发者专注把想法做成产品。
+
+围绕「硬件 + 软件 + 文档」三条线，我们持续输出：
+
+- **开源硬件** — Eyes 带屏系列、Cam 摄像头系列、DSL 屏幕驱动、SCP 中控面板、UNO 兼容板、PalChat AI 语音开发板等；原理图与 PCBA 工程随文档发布，多数板卡在嘉立创开源。
+- **SDK 与示例** — `aithinker_dev_sdk` 基于 bouffalo_sdk 封装板级驱动与中间件，各开发板仓库附可直接编译烧录的 `examples`。
+- **文档与教程** — [docs.ai-thinker.com](https://docs.ai-thinker.com) 覆盖模组规格、环境搭建、外设例程、AI 语音与 MCP 等，并持续更新产品教程。
+- **调试工具** — FlashKey 提供一键烧录与串口日志采集，缩短开发与量产验证的链路。
+
+主要面向创客、高校教学、方案验证与量产前期开发：从选型、打样到固件，尽量把路铺平。
 
 ## 发展时间线 Timeline
 
@@ -39,6 +48,16 @@
 - **文档**：[docs.ai-thinker.com](https://docs.ai-thinker.com)
 - **示例**：各开发板仓库的 `examples/` 目录
 - **烧录调试**：FlashKey — 一键烧录与串口日志采集
+
+## 更多开源仓库 More Repositories
+
+<div align="center">
+
+[![Ai-Thinker AIoT · GitHub](https://img.shields.io/badge/Ai--Thinker_AIoT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ai-Thinker-AIoT)
+
+<sub>安信可科技主仓库：模组 SDK、开发板固件、示例与工具</sub>
+
+</div>
 
 ## 参与 & 反馈 Contributing
 
