@@ -1,25 +1,39 @@
 {
-  "_comment": "新增年份时，在 milestones 里按时间顺序加一项即可：{\"year\": \"2027\", \"title\": \"主题\", \"lines\": [\"说明一\", \"说明二\"]}；lines 最多两行。改完运行 build_timeline.py 重新生成两张 SVG。",
+  "_comment": "新增年份时，在 milestones 里按时间顺序加一项：{\"year\": \"2027\", \"title\": \"主题\", \"lines\": [\"第一行\", \"第二行\"]}。行由自己控制换行，脚本会检查每行是否超宽并报错。改完运行 build_timeline.py 重新生成 SVG。",
   "milestones": [
     {
       "year": "2023",
-      "title": "成立",
-      "lines": ["首批开源开发板上线", "Eyes/Cam/SCP/KVM/UNO"]
+      "title": "启程",
+      "lines": [
+        "品牌成立，AiPi-Eyes、AiPi-Cam、",
+        "AiPi-SCP、AiPi-KVM、AiPi-UNO 等首批",
+        "开源硬件发布，迈出开源硬件创造的第一步"
+      ]
     },
     {
       "year": "2024",
-      "title": "沉淀",
-      "lines": ["减少新开源硬件项目", "建设 docs 与产品教程"]
+      "title": "深耕",
+      "lines": [
+        "夯实生态基建，完善开发文档、案例教程，",
+        "为开发者提供更稳定、友好的开发体验"
+      ]
     },
     {
       "year": "2025",
-      "title": "对话",
-      "lines": ["聚焦 AI 智能对话", "AI 语音产品落地"]
+      "title": "赋能",
+      "lines": [
+        "发力端侧 AI 交互领域，落地多款 AI 交互",
+        "开源方案，为开源硬件赋能思考能力"
+      ]
     },
     {
       "year": "2026",
-      "title": "升级",
-      "lines": ["优化 GitHub 仓库", "筹备新的开源项目"]
+      "title": "焕新",
+      "lines": [
+        "规范化升级 GitHub 仓库治理，",
+        "梳理代码资产，进一步迈向",
+        "「让创意安心落地」的品牌承诺"
+      ]
     }
   ]
 }
