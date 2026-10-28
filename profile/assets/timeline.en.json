@@ -1,0 +1,25 @@
+{
+  "_comment": "English mirror of timeline.json. To add a year, append {\"year\": \"2027\", \"title\": \"Theme\", \"lines\": [\"line one\", \"line two\"]} in chronological order; lines max two. Then run build_timeline.py to regenerate the SVGs.",
+  "milestones": [
+    {
+      "year": "2023",
+      "title": "Founded",
+      "lines": ["First open boards", "Eyes/Cam/SCP/KVM/UNO"]
+    },
+    {
+      "year": "2024",
+      "title": "Focus",
+      "lines": ["Fewer new hardware", "docs & tutorials"]
+    },
+    {
+      "year": "2025",
+      "title": "Voice",
+      "lines": ["AI voice products", "AI chat as focus"]
+    },
+    {
+      "year": "2026",
+      "title": "Upgrade",
+      "lines": ["Refine GitHub repos", "Prep new projects"]
+    }
+  ]
+}
