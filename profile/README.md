@@ -22,27 +22,29 @@ AiPi is Ai-Thinker's development board team, building open-source hardware aroun
 > 时间线持续补充中，欢迎补充遗漏的里程碑。
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'cScale0':'#e8f0fe','cScaleLabel0':'#1a3c6e','cScale1':'#e6f4ea','cScaleLabel1':'#1e4620','cScale2':'#fff4d6','cScaleLabel2':'#5c4400','cScale3':'#f3e8ff','cScaleLabel3':'#4a1d7a','cScale4':'#fde8ef','cScaleLabel4':'#7a1f3d'}}}%%
 timeline
     title AiPi 小安派发展时间线
     section 2023
         小安派-Eyes : 带屏开发板
-        小安派-Cam : 摄像头方案
-        小安派-SCP : 发布
-        小安派-KVM : 远程 KVM
-        小安派-UNO : UNO 形态
+        小安派-Cam : 摄像头核心板
+        小安派-SCP : 中控面板
+        小安派-KVM : HDMI/USB 切换器
+        小安派-UNO : UNO + 以太网/RS485
     section 2025
-        小安派-九章 : 发布
+        小安派-九章 : MCP 验证套件
 ```
 
 ## 产品线 Product Lines
 
 | 系列 | 定位 | 代表型号 |
 | --- | --- | --- |
-| Eyes 系列 | 带屏交互开发板 | 小安派-Eyes |
-| Cam 系列 | 摄像头 / 图像方案 | 小安派-Cam |
-| Clock 系列 | 桌面时钟 | AiPi-Clock / AiPi-Clock-Mini |
-| 语音交互 | AI 语音对话 | AiPi-PalChatV1 |
-| 工业 / 扩展 | KVM、RS485、UNO 形态 | AiPi-KVM、UNO-ET485 |
+| Eyes 系列 | 带屏交互开发板 | AiPi-Eyes-S1/S2、R1/R2 |
+| Cam 系列 | 摄像头方案 | Cam-D200、Cam-U |
+| SCP 系列 | 中控面板 | SCP-4.3 |
+| UNO 系列 | UNO 兼容，以太网 / RS485 | AiPi-UNO |
+| 语音交互 | AI 语音对话开发板 | PalChat V1/V2/V3 |
+| 其他 | 屏幕驱动 / 墨水屏 / LoRaWAN / KVM | DSL、ESL-2.13、LRW-TH1、KVM |
 
 ## 开发者入口 Get Started
 
