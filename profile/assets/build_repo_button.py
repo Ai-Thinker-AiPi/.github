@@ -16,10 +16,10 @@ W, H = 440, 72
 
 STYLE = dict(fill="#24292f", stroke="#4a5560", text="#ffffff", sub="#a6b0bb")
 
-# 文件名 -> (标题, 副标题)；英文页用 repo-button-en.svg
+# 文件名 -> (标题, 副标题, logo 文件)
 LABELS = {
-    "repo-button.svg": ("安信可科技 · Ai-Thinker", "GitHub 主仓库"),
-    "repo-button-en.svg": ("Ai-Thinker Technology", "Explore Ai-Thinker on GitHub"),
+    "repo-button.svg": ("安信可科技 · Ai-Thinker", "GitHub 主仓库", "logo-mark.png"),
+    "repo-button-en.svg": ("Ai-Thinker AIoT", "Ai-Thinker Official Organization", "logo-aiot.png"),
 }
 
 
@@ -36,9 +36,9 @@ def build(logo_b64, title, sub):
 
 
 def main():
-    with open(os.path.join(HERE, "logo-mark.png"), "rb") as f:
-        logo_b64 = base64.b64encode(f.read()).decode()
-    for name, (title, sub) in LABELS.items():
+    for name, (title, sub, logo) in LABELS.items():
+        with open(os.path.join(HERE, logo), "rb") as f:
+            logo_b64 = base64.b64encode(f.read()).decode()
         path = os.path.join(HERE, name)
         with open(path, "w", encoding="utf-8") as f:
             f.write(build(logo_b64, title, sub))
