@@ -1,0 +1,25 @@
+{
+  "_comment": "新增年份时，在 milestones 里按时间顺序加一项即可：{\"year\": \"2027\", \"title\": \"主题\", \"lines\": [\"说明一\", \"说明二\"]}；lines 最多两行。改完运行 build_timeline.py 重新生成两张 SVG。",
+  "milestones": [
+    {
+      "year": "2023",
+      "title": "成立",
+      "lines": ["首批开源开发板上线", "Eyes/Cam/SCP/KVM/UNO"]
+    },
+    {
+      "year": "2024",
+      "title": "沉淀",
+      "lines": ["减少新开源硬件项目", "建设 docs 与产品教程"]
+    },
+    {
+      "year": "2025",
+      "title": "对话",
+      "lines": ["聚焦 AI 智能对话", "AI 语音产品落地"]
+    },
+    {
+      "year": "2026",
+      "title": "升级",
+      "lines": ["优化 GitHub 仓库", "筹备新的开源项目"]
+    }
+  ]
+}
