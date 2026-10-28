@@ -24,11 +24,6 @@
 
 ## GitHub 主仓库
 
-<div align="center">
-
-<a href="https://github.com/Ai-Thinker-AIoT"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/repo-button-dark.svg">
-  <img src="assets/repo-button-light.svg" alt="安信可科技 GitHub 主仓库">
-</picture></a>
-
-</div>
+<p align="center">
+  <a href="https://github.com/Ai-Thinker-AIoT"><img src="assets/repo-button.svg" alt="安信可科技 GitHub 主仓库"></a>
+</p>
