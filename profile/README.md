@@ -25,13 +25,13 @@
 ## 产品线 Product Lines
 
 | 系列 | 定位 | 代表型号 |
-| --- | --- | --- |
-| Eyes 系列 | 带屏交互开发板 | AiPi-Eyes-S1/S2、R1/R2 |
-| Cam 系列 | 摄像头方案 | Cam-D200、Cam-U |
-| SCP 系列 | 中控面板 | SCP-4.3 |
-| UNO 系列 | UNO 兼容，以太网 / RS485 | AiPi-UNO |
-| 语音交互 | AI 语音对话开发板 | PalChat V1/V2/V3 |
-| 其他 | 屏幕驱动 / 墨水屏 / LoRaWAN / KVM | DSL、ESL-2.13、LRW-TH1、KVM |
+|:---:|:---:|:---|
+| ![Eyes](https://img.shields.io/badge/-Eyes-2f5d8a?style=flat-square) | 带屏交互开发板 | `AiPi-Eyes-S1 / S2`、`R1 / R2` |
+| ![Cam](https://img.shields.io/badge/-Cam-2f6b57?style=flat-square) | 摄像头方案 | `Cam-D200`、`Cam-U` |
+| ![SCP](https://img.shields.io/badge/-SCP-7a5a24?style=flat-square) | 中控面板 | `SCP-4.3` |
+| ![UNO](https://img.shields.io/badge/-UNO-4b3f7a?style=flat-square) | UNO 兼容 · 以太网 / RS485 | `AiPi-UNO` |
+| ![PalChat](https://img.shields.io/badge/-PalChat-8a3a5c?style=flat-square) | AI 语音对话开发板 | `PalChat V1 / V2 / V3` |
+| ![扩展](https://img.shields.io/badge/-%E6%89%A9%E5%B1%95-57606a?style=flat-square) | 屏幕驱动 · 墨水屏 · LoRaWAN · KVM | `DSL`、`ESL-2.13`、`LRW-TH1`、`KVM` |
 
 ## 开发者入口 Get Started
 
