@@ -1,11 +1,10 @@
-# gantt 分年代行
+# gantt without todayMarker
 
 ```mermaid
 gantt
     title AiPi 小安派发展时间线（示例数据）
     dateFormat YYYY-MM-DD
     axisFormat %Y
-    todayMarker off
     section 2022
     团队成立 :milestone, 2022-03-01, 0d
     section 2023
