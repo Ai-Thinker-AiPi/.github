@@ -1,15 +1,14 @@
-# 3 section x 2 events
+# 5 events, minimal text
 
 ```mermaid
 timeline
-    title AiPi 小安派发展时间线
+    title T
     section 2023
-        小安派-Eyes : 首款带屏开发板
-        小安派-Cam : 摄像头方案
+        A : a
+        B : b
     section 2024
-        AiPi-KVM : 远程 KVM 方案
-        统一 SDK : aithinker_dev_sdk 发布
+        C : c
+        D : d
     section 2025
-        AiPi-Clock : 桌面时钟系列
-        AiPi-PalChatV1 : AI 语音对话
+        E : e
 ```
