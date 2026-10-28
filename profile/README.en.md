@@ -2,10 +2,9 @@
 
 # Ai-Thinker AiPi
 
-**Open Source Project Team · Ai-Thinker Technology**
-*安信可科技 · 开源项目团队*
+**Open-Source Project Team at Ai-Thinker Technology**
 
-[![Website 官网](https://img.shields.io/badge/Website-%E5%AE%98%E7%BD%91-2f5d8a?style=flat-square&logo=googlechrome&logoColor=white)](https://www.ai-thinker.com) [![Docs 文档](https://img.shields.io/badge/Docs-%E6%96%87%E6%A1%A3-2f6b57?style=flat-square&logo=readthedocs&logoColor=white)](https://docs.ai-thinker.com) [![Store 商城](https://img.shields.io/badge/Store-%E5%95%86%E5%9F%8E-7a5a24?style=flat-square&logo=shopify&logoColor=white)](https://shop.ai-thinker.com) [![Community 社区](https://img.shields.io/badge/Community-%E7%A4%BE%E5%8C%BA-4b3f7a?style=flat-square&logo=discourse&logoColor=white)](https://www.ai-thinker.com/community)
+[![Website](https://img.shields.io/badge/Website-2f5d8a?style=flat-square&logo=googlechrome&logoColor=white)](https://www.ai-thinker.com) [![Docs](https://img.shields.io/badge/Docs-2f6b57?style=flat-square&logo=readthedocs&logoColor=white)](https://docs.ai-thinker.com) [![Store](https://img.shields.io/badge/Store-7a5a24?style=flat-square&logo=shopify&logoColor=white)](https://shop.ai-thinker.com) [![Community](https://img.shields.io/badge/Community-4b3f7a?style=flat-square&logo=discourse&logoColor=white)](https://www.ai-thinker.com/community)
 
 [![中文](assets/lang-zh.svg)](README.md) [![English](assets/lang-en-active.svg)](README.en.md)
 
@@ -15,19 +14,19 @@
 
 ## About Us
 
-AiPi is the open-source hardware brand of **Ai-Thinker Technology**.
+AiPi is Ai-Thinker Technology's open-source hardware brand.
 
-Guided by our brand promise "Make Ideas Land with Confidence," we aim to lower the technical barrier so that every enthusiast can turn ideas into real products and enjoy the DIY smart-development journey from concept to creation.
+Our promise is simple: help you bring ideas to life with confidence. We make hardware development more accessible, so more makers can turn their ideas into working products and enjoy building along the way.
 
-## Milestones Timeline
+## Our Journey
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-en-dark.svg">
-  <img src="assets/timeline-en-light.svg" alt="AiPi team timeline: start 2023, deepen 2024, empower 2025, renew 2026">
+  <img src="assets/timeline-en-light.svg" alt="AiPi journey: 2023 getting started, 2024 building the foundation, 2025 bringing AI to the edge, 2026 improving the developer experience">
 </picture>
 
-## GitHub Main Repository
+## Explore Ai-Thinker on GitHub
 
 <p align="center">
-  <a href="https://github.com/Ai-Thinker-AIoT"><img src="assets/repo-button-en.svg" alt="Ai-Thinker GitHub main repository"></a>
+  <a href="https://github.com/Ai-Thinker-AIoT"><img src="assets/repo-button-en.svg" alt="Explore Ai-Thinker on GitHub"></a>
 </p>
