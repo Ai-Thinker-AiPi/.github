@@ -18,20 +18,19 @@
 <rect x="208.0" y="258" width="336" height="180" rx="12" fill="#5fb89a" fill-opacity="0.10" stroke="#5fb89a" stroke-opacity="0.40"/>
 <text x="222.0" y="296" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#5fb89a">2024</text>
 <text x="222.0" y="322" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Building the Foundation</text>
-<text x="222.0" y="342" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">Expanded our documentation and</text>
-<text x="222.0" y="362" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">tutorials to give developers a</text>
-<text x="222.0" y="382" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">more reliable, approachable</text>
-<text x="222.0" y="402" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">development experience.</text>
+<text x="222.0" y="342" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">Expanded documentation and tutorials</text>
+<text x="222.0" y="362" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">for a more reliable, approachable</text>
+<text x="222.0" y="382" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">developer experience</text>
 <line x1="510.0" y1="228" x2="556.0" y2="198" stroke="#d8b45f" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
 <circle cx="510.0" cy="228" r="12" fill="#d8b45f" fill-opacity="0.12"/>
 <circle cx="510.0" cy="228" r="5.5" fill="#d8b45f"/>
 <rect x="388.0" y="18" width="336" height="180" rx="12" fill="#d8b45f" fill-opacity="0.10" stroke="#d8b45f" stroke-opacity="0.40"/>
 <text x="402.0" y="56" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#d8b45f">2025</text>
 <text x="402.0" y="82" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Bringing AI to the Edge</text>
-<text x="402.0" y="102" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">Released open-source AI voice</text>
-<text x="402.0" y="122" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">interaction solutions, bringing</text>
-<text x="402.0" y="142" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">more AI capabilities to our</text>
-<text x="402.0" y="162" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">hardware.</text>
+<text x="402.0" y="102" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">We drive on-device AI interaction</text>
+<text x="402.0" y="122" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">and deliver a range of open-source</text>
+<text x="402.0" y="142" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">solutions, giving open-source</text>
+<text x="402.0" y="162" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#8b949e">hardware the power to think.</text>
 <line x1="690.0" y1="228" x2="736.0" y2="258" stroke="#a08fd8" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
 <circle cx="690.0" cy="228" r="12" fill="#a08fd8" fill-opacity="0.12"/>
 <circle cx="690.0" cy="228" r="5.5" fill="#a08fd8"/>
