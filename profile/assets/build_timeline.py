@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""生成组织主页的鱼骨时间线（浅色 / 深色两张 SVG）。
+"""生成组织主页的鱼骨时间线（中 / 英 × 浅色 / 深色 四张 SVG）。
 
 用法：
-    1. 编辑同目录下的 timeline.json，按年份顺序追加 {"year", "title", "lines"}
+    1. 编辑 timeline.json（中文）或 timeline.en.json（英文），按年份顺序追加
+       {"year", "title", "lines"}
     2. 运行：python3 build_timeline.py
-    3. 提交生成的 timeline-light.svg / timeline-dark.svg
+    3. 提交生成的 timeline-*.svg / timeline-en-*.svg
 
 版式规则：骨刺沿脊线左右交替，年份自动均分；条目变多时卡片会自动收窄。
 """
@@ -35,17 +36,25 @@ THEMES = {
 }
 
 
-def load():
-    with open(os.path.join(HERE, "timeline.json"), encoding="utf-8") as f:
+LOCALES = {
+    "zh": dict(data="timeline.json", suffix="", max_lines=2, desc_size=15,
+               aria="AiPi 小安派团队发展鱼骨时间线"),
+    "en": dict(data="timeline.en.json", suffix="-en", max_lines=2, desc_size=13.5,
+               aria="AiPi team milestone timeline"),
+}
+
+
+def load(locale):
+    with open(os.path.join(HERE, LOCALES[locale]["data"]), encoding="utf-8") as f:
         data = json.load(f)
     items = data["milestones"]
     for it in items:
-        if len(it.get("lines", [])) > 2:
-            raise ValueError(f'{it["year"]}: lines 最多两行')
+        if len(it.get("lines", [])) > LOCALES[locale]["max_lines"]:
+            raise ValueError(f'{it["year"]}: lines 超出上限')
     return items
 
 
-def build(theme, items):
+def build(theme, items, aria, desc_size=15):
     t = THEMES[theme]
     n = len(items)
     spacing = min(160, MAX_SPAN / (n - 1)) if n > 1 else 0
@@ -54,7 +63,7 @@ def build(theme, items):
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}" role="img" '
-        f'aria-label="AiPi 小安派团队发展鱼骨时间线">',
+        f'aria-label="{aria}">',
         f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="20" '
         f'fill="{t["bg"]}" stroke="{t["border"]}"/>',
         f'<line x1="{SPINE_X0}" y1="{SPINE_Y}" x2="{SPINE_X1-16}" y2="{SPINE_Y}" '
@@ -89,7 +98,7 @@ def build(theme, items):
         for j, line in enumerate(it["lines"]):
             out.append(
                 f'<text x="{card_x+14:.1f}" y="{top+66+j*22}" font-family="{FONT}" '
-                f'font-size="15" fill="{t["sub"]}">{escape(line)}</text>'
+                f'font-size="{desc_size}" fill="{t["sub"]}">{escape(line)}</text>'
             )
 
     out.append("</svg>")
@@ -97,12 +106,13 @@ def build(theme, items):
 
 
 def main():
-    items = load()
-    for theme in THEMES:
-        path = os.path.join(HERE, f"timeline-{theme}.svg")
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(build(theme, items))
-        print("wrote", path)
+    for locale, cfg in LOCALES.items():
+        items = load(locale)
+        for theme in THEMES:
+            path = os.path.join(HERE, f"timeline{cfg['suffix']}-{theme}.svg")
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(build(theme, items, cfg["aria"], cfg["desc_size"]))
+            print("wrote", path)
 
 
 if __name__ == "__main__":
