@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="332" viewBox="0 0 880 332" role="img" aria-label="AiPi team milestone timeline">
+<rect x="1" y="1" width="878" height="330" rx="20" fill="#161b22" stroke="#30363d"/>
+<line x1="44" y1="166" x2="824" y2="166" stroke="#3d444d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M824 158 L840 166 L824 174 Z" fill="#3d444d"/>
+<line x1="150.0" y1="166" x2="196.0" y2="132" stroke="#6ea8d8" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="150.0" cy="166" r="12" fill="#6ea8d8" fill-opacity="0.12"/>
+<circle cx="150.0" cy="166" r="5.5" fill="#6ea8d8"/>
+<rect x="96.0" y="28" width="200.0" height="104" rx="12" fill="#6ea8d8" fill-opacity="0.10" stroke="#6ea8d8" stroke-opacity="0.40"/>
+<text x="110.0" y="62" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#6ea8d8">2023</text>
+<text x="186.0" y="61" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="17" font-weight="600" fill="#e6edf3">Founded</text>
+<text x="110.0" y="94" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#8b949e">First open boards</text>
+<text x="110.0" y="116" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#8b949e">Eyes/Cam/SCP/KVM/UNO</text>
+<line x1="310.0" y1="166" x2="356.0" y2="200" stroke="#5fb89a" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="310.0" cy="166" r="12" fill="#5fb89a" fill-opacity="0.12"/>
+<circle cx="310.0" cy="166" r="5.5" fill="#5fb89a"/>
+<rect x="256.0" y="200" width="200.0" height="104" rx="12" fill="#5fb89a" fill-opacity="0.10" stroke="#5fb89a" stroke-opacity="0.40"/>
+<text x="270.0" y="234" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#5fb89a">2024</text>
+<text x="346.0" y="233" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="17" font-weight="600" fill="#e6edf3">Focus</text>
+<text x="270.0" y="266" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#8b949e">Fewer new hardware</text>
+<text x="270.0" y="288" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#8b949e">docs &amp; tutorials</text>
+<line x1="470.0" y1="166" x2="516.0" y2="132" stroke="#d8b45f" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="470.0" cy="166" r="12" fill="#d8b45f" fill-opacity="0.12"/>
+<circle cx="470.0" cy="166" r="5.5" fill="#d8b45f"/>
+<rect x="416.0" y="28" width="200.0" height="104" rx="12" fill="#d8b45f" fill-opacity="0.10" stroke="#d8b45f" stroke-opacity="0.40"/>
+<text x="430.0" y="62" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#d8b45f">2025</text>
+<text x="506.0" y="61" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="17" font-weight="600" fill="#e6edf3">Voice</text>
+<text x="430.0" y="94" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#8b949e">AI voice products</text>
+<text x="430.0" y="116" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#8b949e">AI chat as focus</text>
+<line x1="630.0" y1="166" x2="676.0" y2="200" stroke="#a08fd8" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="630.0" cy="166" r="12" fill="#a08fd8" fill-opacity="0.12"/>
+<circle cx="630.0" cy="166" r="5.5" fill="#a08fd8"/>
+<rect x="576.0" y="200" width="200.0" height="104" rx="12" fill="#a08fd8" fill-opacity="0.10" stroke="#a08fd8" stroke-opacity="0.40"/>
+<text x="590.0" y="234" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#a08fd8">2026</text>
+<text x="666.0" y="233" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="17" font-weight="600" fill="#e6edf3">Upgrade</text>
+<text x="590.0" y="266" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#8b949e">Refine GitHub repos</text>
+<text x="590.0" y="288" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="13.5" fill="#8b949e">Prep new projects</text>
+</svg>
