@@ -5,7 +5,7 @@
 **安信可科技 · 开源开发板团队**
 *Open-source development board team at Ai-Thinker*
 
-<a href="https://www.ai-thinker.com"><img src="assets/icons/web.svg" width="16" height="16" alt="官网"> 官网 Website</a> · <a href="https://docs.ai-thinker.com"><img src="assets/icons/docs.svg" width="16" height="16" alt="文档"> 文档 Docs</a> · <a href="https://shop.ai-thinker.com"><img src="assets/icons/store.svg" width="16" height="16" alt="商城"> 商城 Store</a> · <a href="https://www.ai-thinker.com/community"><img src="assets/icons/community.svg" width="16" height="16" alt="社区"> 社区 Community</a>
+[![官网 Website](https://img.shields.io/badge/%E5%AE%98%E7%BD%91-Website-2f5d8a?style=flat-square&logo=googlechrome&logoColor=white)](https://www.ai-thinker.com) [![文档 Docs](https://img.shields.io/badge/%E6%96%87%E6%A1%A3-Docs-2f6b57?style=flat-square&logo=readthedocs&logoColor=white)](https://docs.ai-thinker.com) [![商城 Store](https://img.shields.io/badge/%E5%95%86%E5%9F%8E-Store-7a5a24?style=flat-square&logo=shopify&logoColor=white)](https://shop.ai-thinker.com) [![社区 Community](https://img.shields.io/badge/%E7%A4%BE%E5%8C%BA-Community-4b3f7a?style=flat-square&logo=discourse&logoColor=white)](https://www.ai-thinker.com/community)
 
 </div>
 
