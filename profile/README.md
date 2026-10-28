@@ -28,14 +28,4 @@
 
 <a href="https://github.com/Ai-Thinker-AIoT"><img src="https://img.shields.io/badge/Ai--Thinker_AIoT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" width="400" alt="安信可科技 GitHub 主仓库"></a>
 
-<sub>模组 SDK、开发板固件、示例与工具</sub>
-
-</div>
-
-<div align="center">
-
-**安信可科技 · Ai-Thinker Technology**
-
-Made with ❤️ for makers, students and engineers.
-
 </div>
