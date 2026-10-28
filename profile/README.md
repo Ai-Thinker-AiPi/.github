@@ -19,21 +19,10 @@ AiPi is Ai-Thinker's development board team, building open-source hardware aroun
 
 ## 发展时间线 Timeline
 
-> 时间线持续补充中，欢迎补充遗漏的里程碑。
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'cScale0':'#22405f','cScaleLabel0':'#d6e6ff','cScale1':'#20493c','cScaleLabel1':'#d5f0e6','cScale2':'#4a3d20','cScaleLabel2':'#f5e8c8','cScale3':'#3b2c55','cScaleLabel3':'#e6ddff','cScale4':'#4a2a36','cScaleLabel4':'#ffdbe6','lineColor':'#57606a','textColor':'#1f2328','titleColor':'#8b949e'}}}%%
-timeline
-    title AiPi 小安派团队发展时间线
-    section 2023 成立
-        AiPi 小安派团队成立 : 围绕 Wi-Fi / 蓝牙模组推出首批开源开发板 Eyes、Cam、SCP、KVM、UNO
-    section 2024 沉淀
-        重心转向文档与教程 : 减少新的开源硬件项目，全力建设 docs 平台内容与各产品教程
-    section 2025 对话
-        切入 AI 智能对话 : 聚焦 AI 语音对话方向，推出相关产品
-    section 2026 升级
-        仓库与生态升级 : 优化 GitHub 仓库，为新的开源项目做准备
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
+  <img src="assets/timeline-light.svg" alt="AiPi 小安派团队发展时间线：2023 成立、2024 沉淀、2025 对话、2026 升级">
+</picture>
 
 ## 产品线 Product Lines
 
