@@ -18,7 +18,7 @@ STYLE = dict(fill="#24292f", stroke="#4a5560", text="#ffffff", sub="#a6b0bb")
 
 # 文件名 -> (标题, 副标题, logo 文件)
 LABELS = {
-    "repo-button.svg": ("安信可科技 · Ai-Thinker", "GitHub 主仓库", "logo-mark.png"),
+    "repo-button.svg": ("安信可科技 · Ai-Thinker", "GitHub 主仓库", "logo-aiot.png"),
     "repo-button-en.svg": ("Ai-Thinker AIoT", "Ai-Thinker Official Organization", "logo-aiot.png"),
 }
 
