@@ -26,14 +26,10 @@
 
 ## 发展时间线 Timeline
 
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
   <img src="assets/timeline-light.svg" alt="AiPi 小安派团队发展鱼骨时间线：2023 成立、2024 沉淀、2025 对话、2026 升级">
 </picture>
-
-</div>
 
 ## 产品线 Product Lines
 
@@ -53,13 +49,13 @@
 - **示例**：各开发板仓库的 `examples/` 目录
 - **烧录调试**：FlashKey — 一键烧录与串口日志采集
 
-## 更多开源仓库 More Repositories
+## 安信可科技 · GitHub 主仓库
 
 <div align="center">
 
-[![Ai-Thinker AIoT · GitHub](https://img.shields.io/badge/Ai--Thinker_AIoT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ai-Thinker-AIoT)
+<a href="https://github.com/Ai-Thinker-AIoT"><img src="https://img.shields.io/badge/Ai--Thinker_AIoT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" width="400" alt="安信可科技 GitHub 主仓库"></a>
 
-<sub>安信可科技主仓库：模组 SDK、开发板固件、示例与工具</sub>
+<sub>模组 SDK、开发板固件、示例与工具</sub>
 
 </div>
 
