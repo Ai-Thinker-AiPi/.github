@@ -7,6 +7,8 @@
 
 [![官网 Website](https://img.shields.io/badge/%E5%AE%98%E7%BD%91-Website-2f5d8a?style=flat-square&logo=googlechrome&logoColor=white)](https://www.ai-thinker.com) [![文档 Docs](https://img.shields.io/badge/%E6%96%87%E6%A1%A3-Docs-2f6b57?style=flat-square&logo=readthedocs&logoColor=white)](https://docs.ai-thinker.com) [![商城 Store](https://img.shields.io/badge/%E5%95%86%E5%9F%8E-Store-7a5a24?style=flat-square&logo=shopify&logoColor=white)](https://shop.ai-thinker.com) [![社区 Community](https://img.shields.io/badge/%E7%A4%BE%E5%8C%BA-Community-4b3f7a?style=flat-square&logo=discourse&logoColor=white)](https://www.ai-thinker.com/community)
 
+**中文** · [English](README.en.md)
+
 </div>
 
 ---
