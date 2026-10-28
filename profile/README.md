@@ -21,7 +21,7 @@ AiPi is Ai-Thinker's development board team, building open-source hardware aroun
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
-  <img src="assets/timeline-light.svg" alt="AiPi 小安派团队发展时间线：2023 成立、2024 沉淀、2025 对话、2026 升级">
+  <img src="assets/timeline-light.svg" alt="AiPi 小安派团队发展鱼骨时间线：2023 成立、2024 沉淀、2025 对话、2026 升级">
 </picture>
 
 ## 产品线 Product Lines
