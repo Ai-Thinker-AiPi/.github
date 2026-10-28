@@ -5,7 +5,7 @@
 **安信可科技 · 开源开发板团队**
 *Open-source development board team at Ai-Thinker*
 
-[官网 Website](https://www.ai-thinker.com) · [文档 Docs](https://docs.ai-thinker.com) · [商城 Store](https://shop.ai-thinker.com) · [社区 Community](https://www.ai-thinker.com/community)
+<a href="https://www.ai-thinker.com"><img src="assets/icons/web.svg" width="16" height="16" alt="官网"> 官网 Website</a> · <a href="https://docs.ai-thinker.com"><img src="assets/icons/docs.svg" width="16" height="16" alt="文档"> 文档 Docs</a> · <a href="https://shop.ai-thinker.com"><img src="assets/icons/store.svg" width="16" height="16" alt="商城"> 商城 Store</a> · <a href="https://www.ai-thinker.com/community"><img src="assets/icons/community.svg" width="16" height="16" alt="社区"> 社区 Community</a>
 
 </div>
 
@@ -14,8 +14,6 @@
 ## 关于我们 About
 
 小安派（AiPi）是安信可科技旗下的开发板团队，围绕 Wi-Fi / 蓝牙模组做「拿起来就能玩」的开源硬件：开发板、屏幕、摄像头、外壳，以及配套的 SDK、示例固件与调试工具，全部开源。
-
-AiPi is Ai-Thinker's development board team, building open-source hardware around Wi-Fi / Bluetooth modules — boards, displays, cameras and enclosures, plus the SDKs, sample firmware and debug tools that go with them.
 
 ## 发展时间线 Timeline
 
