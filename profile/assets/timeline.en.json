@@ -1,25 +1,41 @@
 {
-  "_comment": "English mirror of timeline.json. To add a year, append {\"year\": \"2027\", \"title\": \"Theme\", \"lines\": [\"line one\", \"line two\"]} in chronological order; lines max two. Then run build_timeline.py to regenerate the SVGs.",
+  "_comment": "English mirror of timeline.json. To add a year, append {\"year\": \"2027\", \"title\": \"Theme\", \"lines\": [\"line one\", \"line two\"]} in chronological order. Line breaks are manual; the script checks line width. Then run build_timeline.py.",
   "milestones": [
     {
       "year": "2023",
-      "title": "Founded",
-      "lines": ["First open boards", "Eyes/Cam/SCP/KVM/UNO"]
+      "title": "Start",
+      "lines": [
+        "Brand founded. First boards:",
+        "AiPi-Eyes, AiPi-Cam, AiPi-SCP,",
+        "AiPi-KVM and AiPi-UNO released."
+      ]
     },
     {
       "year": "2024",
-      "title": "Focus",
-      "lines": ["Fewer new hardware", "docs & tutorials"]
+      "title": "Deepen",
+      "lines": [
+        "Built ecosystem infrastructure",
+        "with docs and case tutorials for",
+        "a stable, friendly experience."
+      ]
     },
     {
       "year": "2025",
-      "title": "Voice",
-      "lines": ["AI voice products", "AI chat as focus"]
+      "title": "Empower",
+      "lines": [
+        "Moved into edge AI interaction",
+        "with several AI voice",
+        "open-source solutions."
+      ]
     },
     {
       "year": "2026",
-      "title": "Upgrade",
-      "lines": ["Refine GitHub repos", "Prep new projects"]
+      "title": "Renew",
+      "lines": [
+        "Standardized GitHub repos and",
+        "code assets, moving toward",
+        "\"Make Ideas Land with Confidence\""
+      ]
     }
   ]
 }
