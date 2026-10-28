@@ -1,0 +1,46 @@
+{
+  "_comment": "English mirror of timeline.json. To add a year, append {\"year\": \"2027\", \"title\": \"Theme\", \"lines\": [\"line one\", \"line two\"]} in chronological order. Line breaks are manual; the script checks line width. Then run build_timeline.py.",
+  "milestones": [
+    {
+      "year": "2023",
+      "title": "Getting Started",
+      "lines": [
+        "Launched the AiPi brand and our",
+        "first development boards: AiPi-Eyes,",
+        "AiPi-Cam, AiPi-SCP, AiPi-KVM,",
+        "and AiPi-UNO."
+      ]
+    },
+    {
+      "year": "2024",
+      "title": "Building the Foundation",
+      "lines": [
+        "Expanded our documentation and",
+        "tutorials to give developers a",
+        "more reliable, approachable",
+        "development experience."
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "Bringing AI to the Edge",
+      "lines": [
+        "Released open-source AI voice",
+        "interaction solutions, bringing",
+        "more AI capabilities to our",
+        "hardware."
+      ]
+    },
+    {
+      "year": "2026",
+      "title": "Improving the Developer Experience",
+      "lines": [
+        "Improved how we organize and",
+        "maintain our GitHub repositories",
+        "and code, making it easier for",
+        "developers to bring ideas to",
+        "life with confidence."
+      ]
+    }
+  ]
+}

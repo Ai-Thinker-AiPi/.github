@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="456" viewBox="0 0 940 456" role="img" aria-label="AiPi team milestone timeline">
+<rect x="1" y="1" width="938" height="454" rx="20" fill="#f6f8fa" stroke="#d8dee4"/>
+<line x1="44" y1="228" x2="884" y2="228" stroke="#c9d1d9" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M884 220 L900 228 L884 236 Z" fill="#c9d1d9"/>
+<line x1="150.0" y1="228" x2="196.0" y2="198" stroke="#2f5d8a" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="150.0" cy="228" r="12" fill="#2f5d8a" fill-opacity="0.12"/>
+<circle cx="150.0" cy="228" r="5.5" fill="#2f5d8a"/>
+<rect x="28.0" y="18" width="336" height="180" rx="12" fill="#2f5d8a" fill-opacity="0.05" stroke="#2f5d8a" stroke-opacity="0.30"/>
+<text x="42.0" y="56" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#2f5d8a">2023</text>
+<text x="42.0" y="82" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1f2328">Getting Started</text>
+<text x="42.0" y="102" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">Launched the AiPi brand and our</text>
+<text x="42.0" y="122" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">first development boards: AiPi-Eyes,</text>
+<text x="42.0" y="142" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">AiPi-Cam, AiPi-SCP, AiPi-KVM,</text>
+<text x="42.0" y="162" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">and AiPi-UNO.</text>
+<line x1="330.0" y1="228" x2="376.0" y2="258" stroke="#2f6b57" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="330.0" cy="228" r="12" fill="#2f6b57" fill-opacity="0.12"/>
+<circle cx="330.0" cy="228" r="5.5" fill="#2f6b57"/>
+<rect x="208.0" y="258" width="336" height="180" rx="12" fill="#2f6b57" fill-opacity="0.05" stroke="#2f6b57" stroke-opacity="0.30"/>
+<text x="222.0" y="296" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#2f6b57">2024</text>
+<text x="222.0" y="322" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1f2328">Building the Foundation</text>
+<text x="222.0" y="342" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">Expanded our documentation and</text>
+<text x="222.0" y="362" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">tutorials to give developers a</text>
+<text x="222.0" y="382" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">more reliable, approachable</text>
+<text x="222.0" y="402" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">development experience.</text>
+<line x1="510.0" y1="228" x2="556.0" y2="198" stroke="#7a5a24" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="510.0" cy="228" r="12" fill="#7a5a24" fill-opacity="0.12"/>
+<circle cx="510.0" cy="228" r="5.5" fill="#7a5a24"/>
+<rect x="388.0" y="18" width="336" height="180" rx="12" fill="#7a5a24" fill-opacity="0.05" stroke="#7a5a24" stroke-opacity="0.30"/>
+<text x="402.0" y="56" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#7a5a24">2025</text>
+<text x="402.0" y="82" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1f2328">Bringing AI to the Edge</text>
+<text x="402.0" y="102" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">Released open-source AI voice</text>
+<text x="402.0" y="122" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">interaction solutions, bringing</text>
+<text x="402.0" y="142" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">more AI capabilities to our</text>
+<text x="402.0" y="162" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">hardware.</text>
+<line x1="690.0" y1="228" x2="736.0" y2="258" stroke="#4b3f7a" stroke-opacity="0.45" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="690.0" cy="228" r="12" fill="#4b3f7a" fill-opacity="0.12"/>
+<circle cx="690.0" cy="228" r="5.5" fill="#4b3f7a"/>
+<rect x="568.0" y="258" width="336" height="180" rx="12" fill="#4b3f7a" fill-opacity="0.05" stroke="#4b3f7a" stroke-opacity="0.30"/>
+<text x="582.0" y="296" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="30" font-weight="700" fill="#4b3f7a">2026</text>
+<text x="582.0" y="322" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" font-weight="700" fill="#1f2328">Improving the Developer Experience</text>
+<text x="582.0" y="342" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">Improved how we organize and</text>
+<text x="582.0" y="362" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">maintain our GitHub repositories</text>
+<text x="582.0" y="382" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">and code, making it easier for</text>
+<text x="582.0" y="402" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">developers to bring ideas to</text>
+<text x="582.0" y="422" font-family="Inter, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="14" fill="#57606a">life with confidence.</text>
+</svg>
