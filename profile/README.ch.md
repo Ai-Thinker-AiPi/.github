@@ -1,6 +1,8 @@
 <div align="center">
 
-<h1><picture><source media="(prefers-color-scheme: dark)" srcset="assets/logo-aipi-dark.png"><img src="assets/logo-aipi-light.png" alt="AiPi" height="28"></picture>&nbsp;&nbsp;Ai-Thinker AiPi · 小安派</h1>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/logo-aipi-dark.png"><img src="assets/logo-aipi-light.png" alt="AiPi" height="120"></picture>
+
+# Ai-Thinker AiPi · 小安派
 
 **安信可科技 · 开源项目团队**
 *Open-Source Project Team at Ai-Thinker Technology*

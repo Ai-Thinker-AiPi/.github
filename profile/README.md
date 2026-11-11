@@ -1,6 +1,8 @@
 <div align="center">
 
-<h1><picture><source media="(prefers-color-scheme: dark)" srcset="assets/logo-aipi-dark.png"><img src="assets/logo-aipi-light.png" alt="AiPi" height="28"></picture>&nbsp;&nbsp;Ai-Thinker AiPi</h1>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/logo-aipi-dark.png"><img src="assets/logo-aipi-light.png" alt="AiPi" height="120"></picture>
+
+# Ai-Thinker AiPi
 
 **Open-Source Project Team at Ai-Thinker Technology**
 

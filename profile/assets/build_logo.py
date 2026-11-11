@@ -17,7 +17,7 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "logo-aipi-source.png")
 
-OUT_HEIGHT = 240          # 输出高度：README 里按 40px 左右显示，240 够 6 倍屏
+OUT_HEIGHT = 360          # 输出高度：README 里按 120px 显示，360 够 3 倍屏
 PAD = 0                   # 裁剪后额外留白（px，按输出尺寸算）
 INVERT_ALPHA = False      # 源图若是白字黑底，改成 True
 
